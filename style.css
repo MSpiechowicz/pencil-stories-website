@@ -43,3 +43,6 @@ footer a { color: var(--ink); }
   h1 { font-size: 38px; }
 }
 .card .muted { margin-top: 18px; }
+.btn.yt { display: inline-flex; align-items: center; gap: 10px; }
+.yt-play { width: 30px; height: 21px; border-radius: 6px; background: #ff0000; position: relative; flex: none; }
+.yt-play::after { content: ""; position: absolute; left: 12px; top: 5.5px; border-style: solid; border-width: 5px 0 5px 8.5px; border-color: transparent transparent transparent #fff; }
